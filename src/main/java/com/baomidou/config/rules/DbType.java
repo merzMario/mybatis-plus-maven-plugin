@@ -8,7 +8,7 @@ package com.baomidou.config.rules;
  */
 public enum DbType {
 
-    MYSQL("myslq"), ORACLE("oracle");
+    MYSQL("mysql"), ORACLE("oracle");
 
     private String value;
 

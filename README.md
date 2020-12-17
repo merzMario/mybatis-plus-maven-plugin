@@ -1,12 +1,13 @@
 ##mybatisplus-maven-plugin 简介
   * [mybatis-plus](http://git.oschina.net/baomidou/mybatis-plus) 代码生成工具的 maven 插件版本
   * 所有配置均包含在以下的xml中
+  * 基于mybatis-plus-boot-starter 3.4.1 版本
     
 ```xml
 <plugin>
     <groupId>com.baomidou</groupId>
     <artifactId>mybatisplus-maven-plugin</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <configuration>
         <!-- 输出目录(默认java.io.tmpdir) -->
         <outputDir>e:\cache</outputDir>
@@ -33,8 +34,8 @@
             <naming>underline_to_camel</naming>
             <!-- ID策略 是LONG还是STRING类型(默认stringtype)-->
             <serviceIdType>longtype</serviceIdType>
-            <!--Entity中的ID生成策略（默认 id_worker）-->
-            <idGenType>uuid</idGenType>
+            <!--Entity中的ID生成策略（默认 assign_id）-->
+            <idGenType>assign_id</idGenType>
             <!--自定义超类-->
             <!--<superServiceClass>net.hyman.base.BaseService</superServiceClass>-->
             <!-- 要包含的表 与exclude 二选一配置-->

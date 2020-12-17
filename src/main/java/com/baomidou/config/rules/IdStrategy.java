@@ -7,7 +7,7 @@ package com.baomidou.config.rules;
  * @since 2016/8/30
  */
 public enum IdStrategy {
-    auto("AUTO"), id_worker("ID_WORKER"), uuid("UUID"), input("INPUT");
+    auto("AUTO"), id_worker("ID_WORKER"), uuid("UUID"), input("INPUT"),assign_id("ASSIGN_ID");
 
     private String value;
 
