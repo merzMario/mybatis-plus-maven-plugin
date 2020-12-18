@@ -93,7 +93,7 @@ public class GenerateMojo extends AbstractGenerateMojo {
 			ctx.put("package", packageInfo);
 			ctx.put("table", tableInfo);
 			ctx.put("entity", tableInfo.getEntityName());
-			ctx.put("addTabeName", tableInfo.getEntityName().toLowerCase().equals(tableInfo.getName().toLowerCase()));
+			ctx.put("addTabeName", !tableInfo.getEntityName().toLowerCase().equals(tableInfo.getName().toLowerCase()));
 			ctx.put("idGenType", config.getIdType());
 			ctx.put("superEntityClassPackage", config.getSuperEntityClass());
 			ctx.put("superEntityClass", superEntityClass);
