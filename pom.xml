@@ -4,7 +4,7 @@
 
 	<groupId>com.github.merzMario</groupId>
 	<artifactId>mybatis-plus-maven-plugin</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.3</version>
 	<packaging>maven-plugin</packaging>
 
 	<name>mybatis-plus-maven-plugin Maven Plugin</name>
