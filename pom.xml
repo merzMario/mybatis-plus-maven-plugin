@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.github.merzMario</groupId>
-	<artifactId>mybatisplus-maven-plugin</artifactId>
+	<artifactId>mybatis-plus-maven-plugin</artifactId>
 	<version>0.0.1</version>
 	<packaging>maven-plugin</packaging>
 
-	<name>mybatisplus-maven-plugin Maven Plugin</name>
+	<name>mybatis-plus-maven-plugin Maven Plugin</name>
 
 	<url>https://github.com/baomidou/mybatisplus-maven-plugin</url>
 	<developers>

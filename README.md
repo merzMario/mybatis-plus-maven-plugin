@@ -5,9 +5,9 @@
     
 ```xml
 <plugin>
-    <groupId>com.baomidou</groupId>
+    <groupId>com.github.merzMario</groupId>
     <artifactId>mybatisplus-maven-plugin</artifactId>
-    <version>1.0.1</version>
+    <version>0.0.1</version>
     <configuration>
         <!-- 输出目录(默认java.io.tmpdir) -->
         <outputDir>e:\cache</outputDir>
