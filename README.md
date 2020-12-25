@@ -6,7 +6,7 @@
 ```xml
 <plugin>
     <groupId>com.github.merzMario</groupId>
-    <artifactId>mybatisplus-maven-plugin</artifactId>
+    <artifactId>mybatis-plus-maven-plugin</artifactId>
     <version>0.0.1</version>
     <configuration>
         <!-- 输出目录(默认java.io.tmpdir) -->
